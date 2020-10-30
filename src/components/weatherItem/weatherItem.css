@@ -1,0 +1,19 @@
+/*
+burnt orange : #E27D60
+blue-green: #85DCB
+light-orange: #E8A87C
+purple: #C38D9E
+dark green : #41B3A3
+*/
+.weather-item {
+    display: inline-block;
+    background-color: white;  
+    border: 2px solid #E27D60;  
+    margin: 20px; 
+    padding: 15px; 
+    width: 200px; 
+    box-shadow: 7px 7px rgba(169,169,169, .5);
+}
+.weather-item h4 {
+
+}

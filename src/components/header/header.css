@@ -1,4 +1,13 @@
-h1.main {
+.header h1.main {
     margin-top: 45px; 
     text-align: center; 
+    color: white;
+}
+.header h2 {
+    text-align: center; 
+}
+.header {
+    background-color: #41B3A3; 
+    padding: 15px;
+    border-bottom: 3px solid #E27D60;  
 }

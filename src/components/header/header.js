@@ -1,12 +1,14 @@
-import React from 'react'; 
+import React, {useContext} from 'react'; 
+import {WeatherContext} from '../../contexts/weather'; 
 import './header.css'; 
-import Date from '../date/date'; 
 
 export default () => {
+    const [weatherData] = useContext(WeatherContext); 
+
     return (
-        <div>
-            <h1 className="main">Welcome Morehouse, Clark and Spellman Students</h1>
-            <Date/>
+        <div className="header">
+            <h1 className="main">Welcome Morehouse, Clark and Spelman Students</h1>
+            <h2> Number of Weather Locations: {weatherData.length} </h2>
         </div>
     )
 }; 

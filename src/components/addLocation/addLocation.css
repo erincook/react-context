@@ -1,0 +1,22 @@
+.add-location {
+    width: 500px; 
+    margin: 15px auto; 
+    text-align: center; 
+    padding: 15px; 
+    background: #E27D60;
+    border: 1px solid white; 
+}
+
+.add-location input {
+    padding: 5px; 
+    margin: 5px;  
+}
+
+.add-location button {
+    padding: 5px; 
+    font-size: 14px; 
+    background-color: #E8A87C; 
+    border: 1px solid white; 
+    color: white; 
+    font-weight: 600; 
+}
