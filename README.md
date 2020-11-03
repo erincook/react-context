@@ -1,3 +1,10 @@
+## Getting Started
+Clone down this repo. 
+Create a `.env.local` file at the root of this project.  
+Go to RapidAPI and get a key for the Open Weather Map API. 
+In it, place `key=123` where "123" is the api key you just received. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
